@@ -26,7 +26,7 @@ function preload() {
 
 function setup() {
     // 랜덤 시드
-    randomSeed(RSEED);
+    // randomSeed(RSEED);
 
 
     createCanvas(800, 800);
@@ -191,5 +191,6 @@ function draw() {
 }
 
 function mousePressed() {
+    startOver();
     redraw();
 }
